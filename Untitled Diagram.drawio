@@ -10,8 +10,8 @@
         <mxCell id="e7NbT5jtFT5FmiN3hOyQ-4" edge="1" parent="1" source="AgtL2lwKhbSoTei5ldP7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AgtL2lwKhbSoTei5ldP7-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="205" y="640" />
-              <mxPoint x="205" y="640" />
+              <mxPoint x="210" y="620" />
+              <mxPoint x="210" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -53,10 +53,10 @@
         <mxCell id="e7NbT5jtFT5FmiN3hOyQ-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" value="&lt;div&gt;admin.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;admin2.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;adm-im.sa.bservices-api.org.pk:443&lt;/div&gt;&lt;div&gt;adm-im.ma.bservices-api.org.pk:443&lt;br&gt;&lt;/div&gt;&lt;div&gt;adm-vc.bservices-api.org.pk:443&lt;/div&gt;" vertex="1">
           <mxGeometry height="209.99" width="209.99" x="-650" y="119.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-16" edge="1" parent="1" source="e7NbT5jtFT5FmiN3hOyQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="e7NbT5jtFT5FmiN3hOyQ-15">
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-16" edge="1" parent="1" source="e7NbT5jtFT5FmiN3hOyQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="e7NbT5jtFT5FmiN3hOyQ-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="wa.beep.gov.pk:443&lt;div&gt;ms.beep.gov.pk:443&lt;/div&gt;" vertex="1">
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="wa.beep.gov.pk:443&lt;div&gt;ms.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:443&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="190" x="-650" y="520" as="geometry" />
         </mxCell>
         <mxCell id="e7NbT5jtFT5FmiN3hOyQ-11" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;h1&gt;Management access&lt;/h1&gt;" vertex="1">
@@ -76,6 +76,9 @@
         <mxCell id="e7NbT5jtFT5FmiN3hOyQ-20" edge="1" parent="1" source="e7NbT5jtFT5FmiN3hOyQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AgtL2lwKhbSoTei5ldP7-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-25" edge="1" parent="1" source="e7NbT5jtFT5FmiN3hOyQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="e7NbT5jtFT5FmiN3hOyQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="e7NbT5jtFT5FmiN3hOyQ-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;fortinet&lt;/h1&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-250" y="360" as="geometry" />
         </mxCell>
@@ -88,6 +91,9 @@
             <mxPoint x="-180" y="420" as="sourcePoint" />
             <mxPoint x="758.9399999999996" y="553.2768000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-24" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;vc.beep.gov.pk:80 &amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt; Nginx (HTTP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:443 &amp;nbsp; &amp;nbsp; -&amp;gt; HAProxy (HTTPS) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:4000 &amp;nbsp; &amp;nbsp;-&amp;gt; Docker Proxy &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8085 &amp;nbsp; &amp;nbsp;-&amp;gt; Hasura GraphQL Engine &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:81 &amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt; Nginx (Internal Routing) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:82 &amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt; Nginx (Internal Routing) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8185 &amp;nbsp; &amp;nbsp;-&amp;gt; Nginx (Internal Routing) &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3478 &amp;nbsp; &amp;nbsp;-&amp;gt; Coturn STUN/TURN (TCP/UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:5060 &amp;nbsp; &amp;nbsp;-&amp;gt; FreeSWITCH SIP signaling (TCP/UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:5066 &amp;nbsp; &amp;nbsp;-&amp;gt; FreeSWITCH SIP signaling (TCP/UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:5090 &amp;nbsp; &amp;nbsp;-&amp;gt; FreeSWITCH SIP signaling (TCP/UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:7443 &amp;nbsp; &amp;nbsp;-&amp;gt; FreeSWITCH Secure WebSockets &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8021 &amp;nbsp; &amp;nbsp;-&amp;gt; FreeSWITCH Event Socket &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8090 &amp;nbsp; &amp;nbsp;-&amp;gt; Java (BBB-Apps-Akka) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8900 &amp;nbsp; &amp;nbsp;-&amp;gt; Java (BBB-Apps-Akka) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8901 &amp;nbsp; &amp;nbsp;-&amp;gt; Java (BBB-Apps-Akka) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:9001 &amp;nbsp; &amp;nbsp;-&amp;gt; Node.js (Etherpad &amp;amp; HTML5 Client) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:9002 &amp;nbsp; &amp;nbsp;-&amp;gt; Node.js (Etherpad &amp;amp; HTML5 Client) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8093 &amp;nbsp; &amp;nbsp;-&amp;gt; Node.js (Webhooks) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:8378 &amp;nbsp; &amp;nbsp;-&amp;gt; BBB-GraphQL Middleware &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:16384–24576 (UDP) -&amp;gt; FreeSWITCH RTP audio range &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:24577–32768 (UDP) -&amp;gt; bbb-webrtc-sfu, bbb-webrtc-recorder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:50000–60000 (UDP) -&amp;gt; Coturn media relay range (TURN server, for clients behind restrictive firewalls) &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:5432 &amp;nbsp; &amp;nbsp; -&amp;gt; PostgreSQL Database &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:6379 &amp;nbsp; &amp;nbsp; -&amp;gt; Redis Server (Cache/PubSub) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3008 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js Microservice &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3010 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js Microservice &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3014 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js Microservice &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3016 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js Microservice &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3022 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js Microservice &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3024 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js Microservice &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:3026 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js Microservice &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:6759 &amp;nbsp; &amp;nbsp; -&amp;gt; Node.js (Flash Bridge/Internal) &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:22 &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt; SSH (Remote Access) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:9100 &amp;nbsp; &amp;nbsp; -&amp;gt; Node Exporter (Metrics) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:1812 &amp;nbsp; &amp;nbsp; -&amp;gt; FreeRADIUS Auth (UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:1813 &amp;nbsp; &amp;nbsp; -&amp;gt; FreeRADIUS Accounting (UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:18120 &amp;nbsp; &amp;nbsp;-&amp;gt; FreeRADIUS Status (UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:53 &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt; Systemd-resolve DNS (UDP) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:44509 &amp;nbsp; &amp;nbsp;-&amp;gt; Language Server (Development) &amp;nbsp;&lt;/div&gt;&lt;div&gt;vc.beep.gov.pk:45069 &amp;nbsp; &amp;nbsp;-&amp;gt; Language Server (Development) &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="740" width="740" x="-560" y="1040" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
