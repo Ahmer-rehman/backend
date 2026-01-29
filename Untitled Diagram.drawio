@@ -1,32 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.3.6">
   <diagram name="Page-1" id="KyQ-t2lCh_qcuGXPjaLy">
-    <mxGraphModel dx="1170" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2521" dy="2114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AgtL2lwKhbSoTei5ldP7-12" edge="1" parent="1" source="AgtL2lwKhbSoTei5ldP7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AgtL2lwKhbSoTei5ldP7-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-4" edge="1" parent="1" source="AgtL2lwKhbSoTei5ldP7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AgtL2lwKhbSoTei5ldP7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AgtL2lwKhbSoTei5ldP7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="wa.beep.gov.pk:443&lt;div&gt;ms.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; admin.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;admin2.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;adm-im.sa.bservices-api.org.pk:443&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;adm-im.ma.bservices-api.org.pk:443&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; adm-vc.bservices-api.org.pk:443&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="230" width="310" x="10" y="280" as="geometry" />
+          <mxGeometry height="230" width="310" x="50" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="AgtL2lwKhbSoTei5ldP7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;2fa.bservices-api.org.pk:443-&amp;gt;5000&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2fa.bservices-api.org.pk:443--&amp;gt;3200&lt;br&gt;&lt;/div&gt;2fa.bservices-api.org.pk:443 --&amp;gt; 3300&lt;div&gt;vs1.bservices-api.org.pk:443 --&amp;gt; 5600&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;lk-auth.bservices-api.org.pk:443 --&amp;gt; 7880 -&amp;gt; 50000 --&amp;gt; 60000&lt;/div&gt;&lt;div&gt;&amp;nbsp;lk-auth.bservices-api.org.pk:443 --&amp;gt;6080&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;lk-auth.bservices-api.org.pk:443-&amp;gt;3000&lt;br&gt;&lt;/div&gt;&lt;div&gt;wa.beep.gov.pk:80 --&amp;gt; 8081&lt;/div&gt;&lt;div&gt;ms.beep.gov.pk:80 --&amp;gt; 8009&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="520" x="280" y="60" as="geometry" />
+        <mxCell id="AgtL2lwKhbSoTei5ldP7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;2fa.bservices-api.org.pk:443-&amp;gt;5000--&amp;gt; ms.beep.gov.pk&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2fa.bservices-api.org.pk:443--&amp;gt;3200 --&amp;gt; bservices-api.org.pk&lt;br&gt;&lt;/div&gt;2fa.bservices-api.org.pk:443 --&amp;gt; 3300&lt;div&gt;vs1.bservices-api.org.pk:443 --&amp;gt; 5600 -&amp;gt; lk-auth.bservices-api.org.pk&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;lk-auth.bservices-api.org.pk:443 --&amp;gt; 7880 -&amp;gt; 50000 --&amp;gt; 60000&lt;/div&gt;&lt;div&gt;&amp;nbsp;lk-auth.bservices-api.org.pk:443 --&amp;gt;6080&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;lk-auth.bservices-api.org.pk:443 -&amp;gt; 3000-&amp;gt; bservices-api.org.pk&lt;br&gt;&lt;/div&gt;&lt;div&gt;wa.beep.gov.pk:80 --&amp;gt; 8081&lt;/div&gt;&lt;div&gt;ms.beep.gov.pk:80 --&amp;gt; 8009 -&amp;gt;10.2.42.135:5432&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="690" x="30" y="-110" as="geometry" />
         </mxCell>
-        <mxCell id="AgtL2lwKhbSoTei5ldP7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="290" y="600" as="geometry" />
+        <mxCell id="AgtL2lwKhbSoTei5ldP7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="https://bservices-api.org.pk:443 --&amp;gt; 6700 --&amp;gt;20017&lt;div&gt;10.2.42.135:5433&lt;/div&gt;&lt;div&gt;10.2.42.135:27018&lt;/div&gt;&lt;div&gt;10.2.42.135:5434&lt;br&gt;&lt;/div&gt;&lt;div&gt;10.2.42.135:27017&lt;/div&gt;&lt;div&gt;10.2.42.135:5433&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="520" x="200" y="710" as="geometry" />
         </mxCell>
-        <mxCell id="AgtL2lwKhbSoTei5ldP7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="90" width="520" x="350" y="720" as="geometry" />
-        </mxCell>
-        <mxCell id="AgtL2lwKhbSoTei5ldP7-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="55" width="210" x="540" y="367.5" as="geometry" />
+        <mxCell id="AgtL2lwKhbSoTei5ldP7-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; admin.beep.gov.pk:80--&amp;gt;4500-&amp;gt;ms.beep.gov.pk&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;admin2.beep.gov.pk:80--&amp;gt;4600-&amp;gt;ms.beep.gov.pk&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; adm-im.sa.bservices-api.org.pk:80-&amp;gt;4500-&amp;gt;ms.beep.gov.pk&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;adm-im.ma.bservices-api.org.pk:80-&amp;gt;4600-&amp;gt;ms.beep.gov.pk&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;adm-vc.bservices-api.org.pk:80 -&amp;gt; 4000-&amp;gt;ms.beep.gov.pk&lt;/div&gt;" vertex="1">
+          <mxGeometry height="312.8" width="410" x="500" y="238.6" as="geometry" />
         </mxCell>
         <mxCell id="AgtL2lwKhbSoTei5ldP7-8" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;h1&gt;&lt;b&gt;10.2.42.130&lt;/b&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="280" as="geometry" />
         </mxCell>
-        <mxCell id="AgtL2lwKhbSoTei5ldP7-9" edge="1" parent="1" source="AgtL2lwKhbSoTei5ldP7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" target="AgtL2lwKhbSoTei5ldP7-2">
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-1" edge="1" parent="1" source="AgtL2lwKhbSoTei5ldP7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" target="AgtL2lwKhbSoTei5ldP7-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-3" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;h1&gt;&lt;b&gt;10.2.42.133&lt;/b&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="500" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-5" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;h1&gt;&lt;b&gt;10.2.42.135&lt;/b&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="200" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-6" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;h1&gt;&lt;b&gt;10.2.42.140&lt;/b&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" value="&lt;div&gt;admin.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;admin2.beep.gov.pk:443&lt;/div&gt;&lt;div&gt;adm-im.sa.bservices-api.org.pk:443&lt;/div&gt;&lt;div&gt;adm-im.ma.bservices-api.org.pk:443&lt;br&gt;&lt;/div&gt;&lt;div&gt;adm-vc.bservices-api.org.pk:443&lt;/div&gt;" vertex="1">
+          <mxGeometry height="209.99" width="209.99" x="-430" y="140.01" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="wa.beep.gov.pk:443&lt;div&gt;ms.beep.gov.pk:443&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="190" x="-420" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-9" edge="1" parent="1" source="e7NbT5jtFT5FmiN3hOyQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" target="AgtL2lwKhbSoTei5ldP7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-10" edge="1" parent="1" source="e7NbT5jtFT5FmiN3hOyQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;" target="AgtL2lwKhbSoTei5ldP7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-11" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;h1&gt;Management access&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="-430" y="80.01" as="geometry" />
+        </mxCell>
+        <mxCell id="e7NbT5jtFT5FmiN3hOyQ-12" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;h1&gt;Public Services&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="-420" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
